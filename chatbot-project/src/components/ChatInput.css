@@ -84,3 +84,10 @@
   width: 2rem;
   margin: -0.5rem;
 }
+
+@media (max-width: 600px) {
+  .chat-input-container {
+    padding: 0.5rem;
+    padding-bottom: 4rem;
+  }
+}

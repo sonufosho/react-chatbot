@@ -4,3 +4,9 @@
   overflow: scroll;
   scrollbar-width: none;
 }
+
+@media (max-width: 600px) {
+  .chat-message-container {
+    margin: 0.5rem;
+  }
+}
