@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(135deg, #FFB3D9, #B3D9FF, #D9FFB3);
+  font-family: Arial;
+  
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+p {
+  color: #666;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
