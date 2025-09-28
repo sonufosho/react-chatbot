@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Chatbot} from 'supersimpledev'
 import { ChatMessages } from './components/ChatMessages'
 import { ChatInput } from './components/ChatInput'
+import RedHeartImage from './assets/red-heart.png'
 import './App.css'
 
 function App() {
@@ -28,6 +29,11 @@ function App() {
         chatMessages={chatMessages}
         setChatMessages={setChatMessages}
       />
+      <div className="credit">
+        <span>Made with&nbsp;</span>
+        <img src={RedHeartImage} height="20px" />
+        <span>&nbsp;by Sonu</span>
+      </div>
     </div>
   );
 }

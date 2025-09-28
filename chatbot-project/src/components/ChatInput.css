@@ -2,6 +2,7 @@
   display: flex;
   align-items: start;
   padding: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .chat-input-container textarea {
@@ -88,6 +89,11 @@
 @media (max-width: 600px) {
   .chat-input-container {
     padding: 0.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
+    align-items: center;
+  }
+
+  .chat-input-container textarea {
+    padding: 1rem;
   }
 }
