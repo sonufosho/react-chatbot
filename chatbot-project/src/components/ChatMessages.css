@@ -3,11 +3,13 @@
   margin: 1rem;
   overflow: scroll;
   scrollbar-width: none;
+  padding-bottom: 7.25rem;
 }
 
 @media (max-width: 600px) {
   .chat-message-container {
     margin: 0.5rem;
     margin-top: 1rem;
+    padding-bottom: 6rem;
   }
 }
