@@ -2,7 +2,6 @@
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
 
   height: 100vh;
   display: flex;
@@ -11,7 +10,7 @@
 
 .app-container p {
   color: #666;
-  font-size: 1.25rem;
+  font-size: 2rem;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -29,14 +28,19 @@
   bottom: 0.5rem;
   left: 50%;
   transform: translateX(-50%);
+  position: fixed;
 }
 
 @media (max-width: 600px) {
   .app-container p {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
   }
 
   .credit {
-    bottom: 6rem;
+    bottom: 1rem;
   }
 }
