@@ -15,7 +15,13 @@ function App() {
       'hey': 'Hey! How\'s it going?',
       'see you': 'See you later!',
       'goodbye': 'Goodbye. Have a great day!',
-      
+
+      // FAQs
+      'what can you do': 'I can answer questions, tell jokes, and keep you company.',
+      'who are you': 'I\'m Momo, I\'m here to chat and help.',
+      'what is your name': 'You can just call me Momo!',
+      'who created you': 'I was created by a developer, his name is Sonu.',
+
       'give me a unique id': function() {
         return `Sure! Here's a unique ID: ${crypto.randomUUID()}`;
       }
