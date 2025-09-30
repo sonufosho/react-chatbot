@@ -112,6 +112,8 @@ function App() {
       // Commands
       '!commands': `Here's the list of all commands! ----------> flip a coin, roll a dice, what is the date today, what is the time, give me a unique id, tell me a joke, tell me a fun fact`
     });
+
+    Chatbot.unsuccessfulResponse = `Sorry, I didn't quite understand that. You can use !commands for more info.`;
   }, []);
 
   return (
