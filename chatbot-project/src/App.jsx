@@ -22,6 +22,11 @@ function App() {
       'what is your name': 'You can just call me Momo!',
       'who created you': 'I was created by a developer, his name is Sonu.',
 
+      // Emotional responses
+      'i am sad': 'I\'m sorry to hear that. Remember, tough times don\'t last, but tough people do.',
+      'i am happy': 'That\'s awesome! Keep smiling.',
+      'i am bored': 'How about I tell you a joke or a fun fact?',
+
       'give me a unique id': function() {
         return `Sure! Here's a unique ID: ${crypto.randomUUID()}`;
       }
