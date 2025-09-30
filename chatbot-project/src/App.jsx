@@ -108,6 +108,9 @@ function App() {
         const randomIndex = Math.floor(Math.random() * facts.length);
         return facts[randomIndex];
       },
+
+      // Commands
+      '!commands': `Here's the list of all commands! ----------> flip a coin, roll a dice, what is the date today, what is the time, give me a unique id, tell me a joke, tell me a fun fact`
     });
   }, []);
 
